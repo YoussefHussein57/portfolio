@@ -1,0 +1,62 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accent-subtle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+
+  <!-- Glow effects -->
+  <circle cx="200" cy="500" r="300" fill="#8b5cf6" opacity="0.06"/>
+  <circle cx="1000" cy="150" r="250" fill="#06b6d4" opacity="0.06"/>
+
+  <!-- Border accent -->
+  <rect x="2" y="2" width="1196" height="626" rx="12" stroke="url(#accent)" stroke-width="2" fill="none" opacity="0.3"/>
+
+  <!-- Logo hexagon -->
+  <g transform="translate(100, 200)">
+    <polygon points="50,3 93,28 93,72 50,97 7,72 7,28" fill="url(#accent-subtle)" stroke="url(#accent)" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M28 28 L42 50 L42 65" stroke="url(#accent)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M56 28 L42 50" stroke="url(#accent)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M52 38 L52 72" stroke="white" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    <path d="M52 55 L72 55" stroke="white" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    <path d="M72 38 L72 72" stroke="white" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Name -->
+  <text x="220" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="white">Youssef Hussein</text>
+
+  <!-- Title -->
+  <text x="220" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="url(#accent)">Frontend Developer</text>
+
+  <!-- Tagline -->
+  <text x="100" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="white">I Build Interfaces That</text>
+  <text x="100" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="url(#accent)">Matter</text>
+
+  <!-- Tech stack pills -->
+  <g transform="translate(100, 530)">
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.15"/>
+    <text x="45" y="22" font-family="system-ui, sans-serif" font-size="14" fill="white" fill-opacity="0.7" text-anchor="middle">React</text>
+
+    <rect x="105" y="0" width="120" height="34" rx="17" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.15"/>
+    <text x="165" y="22" font-family="system-ui, sans-serif" font-size="14" fill="white" fill-opacity="0.7" text-anchor="middle">TypeScript</text>
+
+    <rect x="240" y="0" width="110" height="34" rx="17" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.15"/>
+    <text x="295" y="22" font-family="system-ui, sans-serif" font-size="14" fill="white" fill-opacity="0.7" text-anchor="middle">Tailwind</text>
+
+    <rect x="365" y="0" width="90" height="34" rx="17" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.15"/>
+    <text x="410" y="22" font-family="system-ui, sans-serif" font-size="14" fill="white" fill-opacity="0.7" text-anchor="middle">Next.js</text>
+  </g>
+</svg>
