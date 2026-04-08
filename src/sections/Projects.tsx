@@ -7,9 +7,9 @@ const projects = [
         title: 'Relief Center',
         description: 'Disaster management platform with real-time data from USGS and NASA. Features 3D globe visualization and OTP authentication.',
         tech: ['Odoo 19', 'Python', 'OWL', 'PostgreSQL', 'MapTiler'],
-        github: '#',
-        demo: '#',
-        image: 'https://islamhafez.vercel.app/images/projects/relief_center.png'
+        github: 'https://github.com/taqat-techno/relief_center',
+        demo: 'https://relief-center.odoo.com/',
+        image: 'projects/RC.png'
     },
     {
         title: 'Paw-Pal',

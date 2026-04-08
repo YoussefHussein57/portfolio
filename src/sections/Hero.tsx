@@ -45,7 +45,7 @@ export const Hero = () => {
                         Get in Touch
                     </motion.a>
                     <motion.a
-                        href="/public/Youssef Hussein Ibrahim Web Developer-DU.pdf"
+                        href="/Youssef Hussein Ibrahim Web Developer-DU.pdf"
                         download
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
