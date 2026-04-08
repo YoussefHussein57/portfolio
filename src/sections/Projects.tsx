@@ -48,7 +48,7 @@ const projects = [
         description: 'High-performance React frontend integrated with Node.js backend for seamless inventory and sales management.',
         tech: ['React', 'SASS', 'Bootstrap', 'Vite'],
         github: 'https://github.com/YoussefHussein57/Secuity',
-        demo: 'https://secuity.vercel.app/',
+        demo: 'https://abdulrahmans19.sg-host.com/App',
         image: 'projects/cybersecurity-portfolio-thumbnail.jpg'
     },
 ];
